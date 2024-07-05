@@ -1,11 +1,15 @@
-import { Button } from '@chakra-ui/react';
+import { Container, Stack } from '@chakra-ui/react';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <>
-      <h2>Dia duit as Chakra UI</h2>
-      <Button>Haigh</Button>
-    </>
+    <Stack h="100vh">
+      <Navbar />
+      <Container>
+        {/* <TodoForm/> */}
+        {/* <TodoList/> */}
+      </Container>
+    </Stack>
   );
 }
 
